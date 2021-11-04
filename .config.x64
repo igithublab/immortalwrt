@@ -1,4 +1,4 @@
-#
+# Trigger on 2021-11-04, added vlmcsd and rtl8821cu
 # Automatically generated file; DO NOT EDIT.
 # OpenWrt Configuration
 #
@@ -2755,7 +2755,7 @@ CONFIG_PACKAGE_kmod-rt2x00-usb=y
 # CONFIG_PACKAGE_kmod-rtl8812au-ac is not set
 # CONFIG_PACKAGE_kmod-rtl8812au-ct is not set
 # CONFIG_PACKAGE_kmod-rtl8821ae is not set
-# CONFIG_PACKAGE_kmod-rtl8821cu is not set
+CONFIG_PACKAGE_kmod-rtl8821cu=y
 # CONFIG_PACKAGE_kmod-rtl88x2bu is not set
 CONFIG_PACKAGE_kmod-rtl8xxxu=y
 # CONFIG_PACKAGE_kmod-wl12xx is not set
@@ -4912,7 +4912,7 @@ CONFIG_PACKAGE_luci-app-upnp=y
 # CONFIG_PACKAGE_luci-app-uugamebooster is not set
 # CONFIG_PACKAGE_luci-app-v2ray-server is not set
 # CONFIG_PACKAGE_luci-app-verysync is not set
-# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+CONFIG_PACKAGE_luci-app-vlmcsd=y
 # CONFIG_PACKAGE_luci-app-vnstat is not set
 # CONFIG_PACKAGE_luci-app-vpn-policy-routing is not set
 # CONFIG_PACKAGE_luci-app-vpnbypass is not set
@@ -5179,6 +5179,7 @@ CONFIG_PACKAGE_luci-i18n-upnp-en=y
 # CONFIG_PACKAGE_luci-i18n-upnp-vi is not set
 CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-upnp-zh-tw is not set
+CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
 # end of LuCI
 
@@ -6411,7 +6412,7 @@ CONFIG_PACKAGE_v2ray-plugin=y
 CONFIG_V2RAY_PLUGIN_COMPRESS_UPX=y
 # CONFIG_PACKAGE_vallumd is not set
 # CONFIG_PACKAGE_verysync is not set
-# CONFIG_PACKAGE_vlmcsd is not set
+CONFIG_PACKAGE_vlmcsd=y
 # CONFIG_PACKAGE_vncrepeater is not set
 # CONFIG_PACKAGE_vnstat is not set
 # CONFIG_PACKAGE_vpn-policy-routing is not set
